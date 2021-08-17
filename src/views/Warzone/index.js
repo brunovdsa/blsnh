@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Header from '../Common/Header/Header';
+import Header from '../../components/common/Header/index';
 
 class Warzone extends Component {
   render() {

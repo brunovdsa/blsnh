@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import Header from '../Common/Header/Header';
+import Header from '../../components/common/Header/index';
 
-class About extends Component {
+class Guides extends Component {
   render() {
     return (
         <div>
@@ -11,4 +11,4 @@ class About extends Component {
   }
 }
 
-export default About;
+export default Guides;

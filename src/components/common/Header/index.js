@@ -3,7 +3,7 @@ import { DropdownButton, Dropdown } from 'react-bootstrap';
 
 import logo from "../../../img/logo.png";
 import mobile from "../../../img/mobile.png";
-import './Header.css';
+import './styles.css';
 
 class Header extends Component {
   render() {
