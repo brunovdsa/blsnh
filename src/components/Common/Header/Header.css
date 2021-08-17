@@ -17,11 +17,12 @@ header {
     margin: 0.2em auto 0.2em 0.5em;
 }
 
-#mobile-bars {
+.mobile-bars {
     margin: 0.2em 0.5em 0.2em auto;
 }
 
-#mobile-bars button {
+.mobile-bars button {
+    display: inline;
     background-color: transparent;
     border: none;
     color: white;    
@@ -29,3 +30,50 @@ header {
     text-decoration: none;    
     font-size: 16px;
 }
+
+.dropdown-menu {
+    transform: translate3d(-122px, 30px, 0px)!important;
+}
+
+.dropdown-toggle::after {
+    content: none !important;
+}
+
+.desktop-nav{
+    display: none;
+}
+
+
+@media (min-width:1025px){
+    header {
+        display: flex;
+        justify-content: center;        
+    }
+
+    header h1 {
+        margin-right: 1.8em;
+    }
+    
+    .mobile-bars{
+        display: none;
+    }
+    
+    .mobile-bars button {
+        display: none;
+        margin: 0;
+    }
+
+    .desktop-nav{
+        display: flex;
+        margin-right: 7em;
+    }
+
+    nav a {
+        text-decoration: none;
+        margin: 0 1.7em 0 0;
+        
+        font-size: 1.7em;
+        color: white;
+    }
+
+ }
