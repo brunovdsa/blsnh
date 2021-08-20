@@ -30,9 +30,19 @@
 }
 
 .background {
+    display: none;
+}
+
+
+.backgroundMobile {
     width: 100%;
     height: auto;
     position: absolute;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
 
     filter: brightness(0.3);
 }
@@ -50,6 +60,24 @@
 
 @media (min-width:1025px){
     .main-section #logo {
+        display: none;
+    }
+    
+    .main-section h1 {
+        display: none;
+    }
+
+    .background {
+        width: 100%;
+        height: auto;
+        display: flex;
+    }
+
+    .backgroundMobile {
+        display: none;
+    }
+
+    .wrapper {
         display: none;
     }
  }
