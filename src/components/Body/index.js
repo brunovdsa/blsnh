@@ -4,14 +4,14 @@ import React, { Component } from 'react';
 //import GuidesSection from './GuidesSection/index';
 import HomeSection from './HomeSection/index';
 //import NewsSection from './NewsSection/index';
-import WarzoneSection from './WarzoneSection/index';
+//import WarzoneSection from './WarzoneSection/index';
 
 class Body extends Component {
   render() {
     return (
         <div>
           <HomeSection></HomeSection>
-          <WarzoneSection></WarzoneSection>
+          
         </div>
     );
   }
