@@ -1,20 +1,29 @@
-import React, { Component } from 'react';
-//import AboutSection from './WarzoneSection';
-//import AboutSection from './AboutSection/index';
-//import GuidesSection from './GuidesSection/index';
-import HomeSection from './HomeSection/index';
-//import NewsSection from './NewsSection/index';
-//import WarzoneSection from './WarzoneSection/index';
+import React, { Component } from "react";
+
+import {
+  MainTitle, 
+  MainDescription
+} from "../common/Typography/index";
+
+import Container from "../common/Container";
+import ApiResponse from "../../Api/ApiResponse";
+
 
 class Body extends Component {
-  render() {
-    return (
-        <div>
-          <HomeSection></HomeSection>
-          
-        </div>
-    );
-  }
+    render() {
+    
+        return (
+          <div>
+            <Container>
+              <Container>
+                <MainTitle>VUTTR</MainTitle>
+                <MainDescription>Very usefull tools to remember</MainDescription>
+              </Container>              
+              <ApiResponse></ApiResponse>      
+            </Container> 
+          </div>        
+        );
+      }
 }
 
 export default Body;

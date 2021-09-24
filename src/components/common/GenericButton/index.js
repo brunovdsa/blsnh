@@ -6,7 +6,7 @@ class GenericButton extends Component {
   render() {
     return (
         <div>
-            <button>Get Started!</button>
+            <button>Add</button>
         </div>
     );
   }
